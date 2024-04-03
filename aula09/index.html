@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula09</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <br>
+    <picture>
+        <source media="(max-width: 513px)" srcset="./Imagem/gatinho.jpg" type="image/jpg">
+        <source media="(max-width: 701px)" srcset="./Imagem/gatinhoMedio.jpg" type="image/jpg">
+        <source media="(max-width: 1081px)" srcset="./Imagem/gatinhoGrande.jpg" type="image/jpg">
+        <img src="./Imagem/gatinhoGigante.jpg" alt="Gato com língua para fora com a legenda 'to nem ai'">
+    </picture>
+</body>
+</html>
