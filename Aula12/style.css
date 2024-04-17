@@ -1,0 +1,27 @@
+body{
+
+
+    background: rgb(6,96,158);
+    background: linear-gradient(90deg, rgba(6,96,158,1) 0%, rgba(17,154,223,1) 35%, rgba(6,95,157,1) 100%);
+    
+
+}
+.poha{
+
+text-align: center;
+border: 10px white solid;
+max-width: 600px;
+background-color: white;
+border-radius: 10px;
+box-shadow: 10px 10px 10px #065F9D;
+margin: auto;
+
+}
+h1{ color: #07A6B8;
+    text-shadow: 5px 5px lightgrey;
+
+
+}
+h2{ color: #06609E;
+    text-shadow: 5px 5px lightgrey;
+}
